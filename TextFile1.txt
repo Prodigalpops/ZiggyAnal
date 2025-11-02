@@ -1,0 +1,23 @@
+To Do
+
+Modify....
+	Strategy.h
+		Add required functions and array structure for the fibs
+		Change the Strategy definition
+		Modify the variable required (L 150 or so)
+
+	Strategy.cpp
+		Change definition to match header
+		(account file has variables already changed - check and ensure used ok here)
+		Add/Change the required strategy functions
+		What is result->invert L 305) ?
+		L 547 onwards - recreate LUA strategy
+
+	Indicators.h / .cpp
+		as per the name - any basic indicators go here e.g. Ma's
+
+	ZiggyAnalProc.h / .cpp
+		Change the header definition in both files.
+		Change relevant variables (L 60 .h)
+		Change the analysis routines for the variable required (L 85 .cpp)
+		Change the output files for the new params (L 162 .cpp)
